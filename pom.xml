@@ -27,9 +27,9 @@
       <version>2.2.0</version>
     </dependency>
     <dependency>
-      <groupId>com.boundary</groupId>
-      <artifactId>high-scale-lib</artifactId>
-      <version>1.0.5</version>
+      <groupId>org.jctools</groupId>
+      <artifactId>jctools-core</artifactId>
+      <version>4.0.5-cloudant1</version>
     </dependency>
     <dependency>
       <groupId>org.scala-tools.testing</groupId>

@@ -19,7 +19,7 @@ package overlock.atomicmap
 import scala.collection.mutable.ConcurrentMap
 import java.util.concurrent.{ConcurrentMap => JConcurrentMap, ConcurrentSkipListMap, ConcurrentHashMap}
 import java.util.Comparator
-import org.cliffc.high_scale_lib._
+import org.jctools.maps._
 
 object AtomicMap {
   def atomicCSLM[A,B] : AtomicNavigableMap[A,B] = {
