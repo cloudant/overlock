@@ -158,9 +158,14 @@
 
   <repositories>
     <repository>
-      <id>boundary-public</id>
-      <name>Boundary Public</name>
-      <url>http://maven.boundary.com/artifactory/repo</url>
+      <id>CloudantPublicRepo</id>
+      <name>Cloudant Public Repo</name>
+      <url>https://maven.cloudant.com/repo/</url>
+    </repository>
+    <repository>
+      <id>central</id>
+      <name>Maven repository</name>
+      <url>https://repo1.maven.org/maven2</url>
     </repository>
   </repositories>
 
